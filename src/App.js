@@ -10,8 +10,8 @@ function App() {
     // add store
     <Provider store={store}>
       <Routes>
-        <Route path="app" element={<Main />} />
-        <Route path="app/post/:id" element={<Post />} />
+        <Route path={"picasso"} element={<Main />} />
+        <Route path="/post/:id" element={<Post />} />
       </Routes>
     </Provider>
   );

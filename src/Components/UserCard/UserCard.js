@@ -7,7 +7,7 @@ export const UserCard = ({ id, title, body }) => {
     <div className={styles.wrapper}>
       <h2 className={styles.title}>{title}</h2>
       <p className={styles.body}>{body}</p>
-      <Link to={"/app/post/" + id}>Подробнее</Link>
+      <Link to={"/post/" + id}>Подробнее</Link>
     </div>
   );
 };
